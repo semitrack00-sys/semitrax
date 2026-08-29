@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: semitrax-website
+    runtime: static
+    staticPublishPath: ./website
+    pullRequestPreviewsEnabled: true
